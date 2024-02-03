@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+
+    color: azure;
+   text-align: center;
+}
+.playarea{
+    height: 35vh;
+    width: 35vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+.btn{
+    font-size: 9vh;
+    background-color: beige;
+    height: 10vh;
+    width: 10vh;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    border: 3px solid white;
+    color: black;
+    font-weight: 500;
+}
+.win p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: yellow;
+    font-size: 65px;
+}
